@@ -2,7 +2,7 @@
 
 context('Connectors', () => {
   beforeEach(() => {
-    cy.visit('../../lightbox/lightbox.html');
+    cy.visit('../../lightBox/lightbox.html');
   })
 
   it('open and close lightbox on click', () => {
